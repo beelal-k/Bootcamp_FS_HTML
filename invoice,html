@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Invoice</title>
+</head>
+
+<body border-style="dashed" border="1">
+	<h1 align="right">INVOICE</h1>
+	<hr align="right" width="1300px"> 
+	<br>
+	<table align="center">
+		<!-- confused about the placement and stuff of the cells and their widths -->
+		<tr>
+			<td width="200">Company Name</td>
+			<td width="">&nbsp;</td>
+			<td align="right" width=500">Customer Company Name</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td >&nbsp;</td>
+			<td align="right">Contact Name</td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td>&nbsp;</td>
+			<td align="right">Address</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>&nbsp;</td>
+			<td align="right">Phone</td>
+		</tr>
+		<tr>
+			<td>Website</td>
+			<td>&nbsp;</td>
+			<td align="right">Email</td>
+		</tr>
+	
+	</table>
+
+	<br>
+	<!-- Information of the Invoice -->
+	<table align="center" border="1" cellpadding="1" cellspacing="0">
+		<tr>
+			<!-- find out how to make this shit aligned correctly and how to make this code work better and be easier to understand -->
+			<td align="left"height="30"width="233.3">Invoice Number:&emsp;&emsp;Dat</td>
+			<td align="center" width="233.3">Issue Date:</td>
+			<td align="center"width="233.3">Expiry Date:</td>
+		</tr>
+	</table>
+
+	<br>
+	<!-- main table of the Invoice -->
+	<table border="1" align="center" cellpadding="2" cellspacing="0" width="715">
+		<tr height="30" bgcolor="#00476">
+			<th width="100">Item#</th>
+			<th width="150">Description</th>
+			<th width="100">Quantity</th>
+			<th width="100">Unit Price</th>
+			<th width="100">Total</th>
+		</tr>
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+		
+		<tr>
+			<td width="100" height="30"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+			<td width="100"></td>
+		</tr>
+	</table>
+
+	<table>
+		<br>
+		<tr>
+			<th>Additional Comments</th>
+		<table style="display: inline-block; ;"border="1" width="300" height="100"></table>	
+		<table style="display: inline-block; float: right;" border="1"cellpadding="4" cellspacing="0">
+			<tr>
+				<th width="90">Subtotal</th>
+				<th width="90"></th>
+			</tr>
+			<tr>
+				<td align="right">Tax&nbsp;&nbsp;</td>
+				<td></td>
+			</tr>
+		</table>	
+		<table align="right" border="1" width=""cellpadding="4" cellspacing="0">
+			<br>
+			<tr>
+				<th width="90" bgcolor="#00476">TOTAL</th>
+				<th width="90"></th>
+			</tr>
+		</table>
+
+		</tr>
+
+
+	</table>
+	
+
+
+</body>
+
+</html>
