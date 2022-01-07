@@ -6,8 +6,8 @@
 </head>
 
 <body>
-<!-- the table that covers the whole document -->
-	<table style="font-family: Arial; font-weight: bold;"border="2" cellpadding="50" cellspacing="0" align="center">
+	<!-- the table that covers the whole document -->
+	<table style="font-family: Arial; font-weight: bold;" border="2" cellpadding="50" cellspacing="0" align="center">
 		<td>
 			<h1 align="right">INVOICE</h1>
 			<hr align="right" width="550px">
@@ -47,7 +47,8 @@
 			<table align="center" border="1" cellpadding="1" cellspacing="0" width="715">
 				<tr>
 					<!-- find out how to make this shit aligned correctly and how to make this code work better and be easier to understand -->
-					<td align="left" height="30" width="233.3">&emsp;&emsp;Invoice<br>&emsp;&emsp;Number:&emsp;&emsp;1234</td>
+					<td align="left" height="30" width="233.3">
+						&emsp;&emsp;Invoice<br>&emsp;&emsp;Number:&emsp;&emsp;1234</td>
 					<td align="left" width="233.3">&emsp;Issue Date:&emsp;&emsp;&emsp;&emsp;Date</td>
 					<td align="left" width="233.3">&emsp;Expiry Date:&emsp;&emsp;&emsp;&emsp;Date</td>
 				</tr>
@@ -56,7 +57,7 @@
 			<br>
 			<!-- main table of the Invoice -->
 			<table border="1" align="center" cellpadding="2" cellspacing="0" width="715">
-				<tr style="color: white;"height="30" bgcolor="#00476">
+				<tr style="color: white;" height="30" bgcolor="#00476">
 					<th width="100">Item#</th>
 					<th width="150">Description</th>
 					<th width="100">Quantity</th>
@@ -125,37 +126,55 @@
 					<td width="100"></td>
 					<td width="100"></td>
 					<td width="100"></td>
+
 				</tr>
+
 			</table>
 			<!-- the last table that contains user input and total -->
 			<table>
+				<table align="left">
+					<br>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				<div>Additional Comments</div>
+
+				<table align="left" border="1" width="300" height="100" cellpadding="2" cellspacing="0">
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				<table align="right" border="1" cellpadding="2" cellspacing="0" width="264">
+
+					<tr>
+						<td width="100" height="30" align="center">Subtotal</td>
+						<td width="100"></td>
+					</tr>
+					
+
+					<tr>
+						<td style="font-weight: normal;"width="100" height="30" align="center">&emsp;&emsp;Tax</td>
+						<td width="100"></td>
+					</tr>
+		
+				</table>
 				<br>
-				<tr>
-					<th>Additional Comments</th>
-					<table style="display: inline-block; " border="1" width="400" height="100"></table>
-					<table style="float: right;" border="1" cellpadding="4" cellspacing="0">
-						<tr>
-							<th width="90">Subtotal</th>
-							<th width="90"></th>
-						</tr>
-						<tr>
-							<td style="font-weight: normal;"align="right">Tax&emsp;&nbsp;</td>
-							<td></td>
-						</tr>
-					</table>
-					<table align="right" border="1" width="" cellpadding="4" cellspacing="0">
-						<br>
-						<tr>
-							<th width="90" bgcolor="#00476" style="color:white">TOTAL</th>
-							<th width="90"></th>
-						</tr>
-					</table>
-
-				</tr>
-
+				<br>
+				<br>
+				<br>
+				<br>
+				<table align="right" border="1" cellpadding="2" cellspacing="0" width="264">
+					<tr>
+						<td style="color: white;"width="100" height="30" align="center" bgcolor="#00476">TOTAL</td>
+						<td width="100"></td>
+					</tr>
+				</table>
 
 			</table>
+			
 		</td>
+		
 	</table>
 
 
