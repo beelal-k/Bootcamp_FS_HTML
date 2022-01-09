@@ -1,3 +1,6 @@
+body{
+    background-image: url("moon.jpg");
+}
 #circle{
     background:#b2acbb;
     width: 100px;
