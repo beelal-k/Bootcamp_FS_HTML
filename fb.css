@@ -1,0 +1,327 @@
+#fbh1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 5px;
+
+    
+
+}
+
+hr{
+    border-collapse: collapse;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: #a1b7e6;
+    opacity: 60%;
+}
+
+
+
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    border: none;
+}
+
+#signdiv{
+    position: relative;
+    left: 50px;
+}
+
+#loginfo{
+    position: relative;
+    left: 50px;
+}
+
+
+#topbar{
+    background-color:#3B5998;
+    color: white;
+}
+#forgot{
+    position: relative;
+    color: #96abd8;
+    font-size: 11px;
+    right: 13px;
+}
+#email, #pwd{
+    border-width: 1px;
+    border-collapse: collapse;
+    padding: 2px;
+}
+#pwd, #lb_pwd{
+    position: relative;
+    right: 16px;
+    
+}
+#lb_pwd, #lb_em{
+    position: relative;
+    font-size: 11px;
+    padding: 1px;
+    bottom: 3px;
+}
+#lb_rem{
+    position: relative;
+    font-size: 11px;
+    bottom: 1px;
+    color: #96abd8;
+    right: 4px;
+}
+#rem{
+    position: relative;
+    right: 3px;
+    top: 1px;
+}
+
+
+#login{
+    position: relative;
+    right: 92px;
+    background-color:#627AAC ;
+    color: white;
+    font-weight: bold;
+    border-width:1px;
+    border-collapse: collapse;
+    padding: 2px;
+    font-size: 11px;
+    box-shadow: 0px 0px 10px 0px #304f92;
+    width: 50px;
+    height: 22px;
+    
+    
+}
+
+#moto{
+    font-size: 19px;
+    font-weight: 800;
+    color: #273e6e;
+    position: relative;
+    left: 80px;
+    bottom: 12px;
+    
+}
+
+#pic{
+    position: relative;
+    left: 70px;
+}
+
+#signup{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #273e6e;
+}
+
+#free{
+    position: relative;
+    left: 12px;
+}
+
+#first_n{
+    position: relative;
+    left: 10px;
+    margin: 3px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-collapse: collapse;
+    height: 30px;
+    width: 260px;
+    border-color:#627AAC #627AAC #627AAC #627AAC;
+
+}
+
+#last_n{
+    position: relative;
+    left: 11px;
+    margin: 3px;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 260px;
+    border-color:#627AAC;
+}
+
+#reg_email{
+    position: relative;
+    left: 11px;
+    margin: 3px;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 260px;
+    border-color:#627AAC;
+}
+
+#re_email{
+    position: relative;
+    left: -12px;
+    margin: 3px;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 260px;
+    border-color:#627AAC;
+
+}
+
+#reg_pwd{
+    position: relative;
+    margin: 3px;
+    left: -12px;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px; 
+    height: 30px;
+    width: 260px;
+    border-color:#627AAC;
+}
+
+#lb_first{
+    font-size: 13px;
+    position: relative;
+    left: 14px;
+}
+#lb_last{
+    font-size: 13px;
+    position: relative;
+    left: 14px;
+}
+#lb_eml{
+    font-size: 13px;
+    position: relative;
+    left: 14px;
+}
+#lb_reml{
+    font-size: 13px;
+    position: relative;
+    right: 9px;
+}
+#lb_rgpwd{
+    font-size: 13px;
+    position: relative;
+    right: 9px;
+}
+#sex{
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 95px;
+    position: relative;
+    margin: 3px;
+    left: 49px;
+    border-color: #a1b7e6;
+}
+#iam{
+    position: relative;
+    font-size: 13px;
+    left: 52px;
+}
+
+#lb_bday{
+    left: 20px;
+    position: relative;
+    font-size: 13px;
+}
+
+.bday{
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 65px;
+    position: relative;
+    margin: 3px;
+    left: 26px;
+}
+
+#month{
+    width: 72px;
+    padding: 3px;
+    border-color:#a1b7e6;
+}
+
+#day{
+    width: 57px;
+    padding: 4px;
+    border-color:#a1b7e6;
+}
+#year{
+    width: 62px;
+    padding: 3px;
+    border-color:#a1b7e6;
+
+}
+#qbday{
+    font-size: 12px;
+    position: relative;
+    left: 86px;
+    color: rgb(0, 76, 163);
+}
+
+#signbutt{
+    position: relative;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 30px;
+    width: 110px;
+    margin: 3px;
+    left: 82px;
+    color: white;
+    font-weight: 700;
+    background-color: #69A74E;
+
+}
+
+#create{
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 65%;
+    position: relative;
+    left: 30px;
+}
+
+#cpg{
+    color: #000288;
+}
+
+#langs{
+    font-size: 11px;
+    position: relative;
+    left: 300px;
+    top: 40px;
+    color: #273e6e;
+}
+
+#copy{
+    font-size: 11px;
+    position: relative;
+    top: 60px;
+    left: 300px;
+}
+
+#grps{
+    font-size: 11px;
+    position: relative;
+    top: 60px;
+    right: 140px;
+}
