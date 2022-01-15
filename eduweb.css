@@ -1,0 +1,128 @@
+#parent{
+    border: 1px solid black;
+    height: 810px;
+    width: 700px;
+    position: relative;
+    left: 425px;
+}
+
+#head_bg{
+    width:700px;
+    height: 300px;
+    background-color: #817461;
+}
+
+#title{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-size: 25px;
+    color: #BBB281;
+}
+#author{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 58px;
+}
+
+#website{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    color: white;
+}
+
+
+#navi ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 263px;
+    bottom: 250px;
+    border: 1px solid;
+    margin: 0px;
+    background-color: #6A6158;
+    border-right:1;
+    width: 73px;
+    height: 39px;
+    line-height: 35px;
+    text-align: center;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    color: white;
+    opacity: 80%;
+    border-color: black;
+    box-shadow: inset  0 -20px 20px -10px #33322f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+#home{
+    border-top-left-radius: 10px;
+}
+
+#contact{
+    border-top-right-radius: 10px;
+}
+
+#clgimg{
+    position: absolute;
+    height: 230px;
+    width: 650px;
+    right: 25px;
+    top: 100px;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+#img_txt{
+    position: absolute;
+    top: 83px;
+    left: 23px;
+    background-color: #66563D;
+    height: 230px;
+    width: 300px;
+    opacity: 70%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 10px;
+    color: white;
+    box-shadow: inset  0 -100px 10px -10px #33322f;
+    
+}
+
+#img_txt_hd{
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 50px; 
+
+
+}
+#img_txt_bd{
+    position: absolute;
+    color: white;
+    top: 210px;
+    left: 50px;
+}
+#butt_lrn{
+    position: absolute;
+    top: 270px;
+    left: 190px;
+    background-color: #B97E35;
+    border: 0;
+    border-radius: 10px;
+    text-align: cen;
+    width: 112px;
+    height: 32px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: inset  0 -20px 20px -10px #8a602e;
+}
