@@ -214,3 +214,45 @@
     border-top-right-radius: 60% 100px;
     
 }
+
+#red_bg{
+    position: absolute;
+    left:35px;
+    top: 330px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 400px;   
+    border-top-left-radius: 50% 15px;
+    border-top-right-radius: 50% 15px;
+    border-bottom-left-radius: 50% 15px;
+    border-bottom-right-radius: 50% 15px;
+}
+
+#yel_bg{
+    position: absolute;
+    left:265px;
+    top: 330px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 400px;   
+    border-top-left-radius: 50% 15px;
+    border-top-right-radius: 50% 15px;
+    border-bottom-left-radius: 50% 15px;
+    border-bottom-right-radius: 50% 15px;
+}
+
+
+#blu_bg{
+    position: absolute;
+    left:490px;
+    top: 330px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 400px;   
+    border-top-left-radius: 50% 15px;
+    border-top-right-radius: 50% 15px;
+    border-bottom-left-radius: 50% 15px;
+    border-bottom-right-radius: 50% 15px;
+}
+
+
