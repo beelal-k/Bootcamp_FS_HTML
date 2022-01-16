@@ -1,0 +1,53 @@
+#bg{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+#notice{
+    background: maroon;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:50px;
+    text-align: center;
+}
+#first{
+    height: 40px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    position: absolute;
+    margin: 3px;
+
+    
+}
+#sec{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    margin: 3px;
+}   
+
+.txt{
+    width: 400px;
+    position: absolute;
+    animation-name: up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1;
+}
+
+
+@keyframes up {
+    
+    from{
+        top:60px;
+    }
+
+    to{
+        top: 20px;
+    }
+}
