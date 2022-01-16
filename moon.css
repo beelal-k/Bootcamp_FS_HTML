@@ -1,12 +1,23 @@
 body{
-    background-color: #100c25;
-    /* animation-duration: 1s;
-    animation-name: colorchange;
-    animation-fill-mode: forwards; */
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
+.back{
+    background-color: #100c25;
+     /* animation-duration: 1s; */
+    /* animation-name: colorchange;
+    animation-fill-mode: forwards;*/ 
+    animation-name: back;
+    animation-duration: 2s;
+    margin:0px;
+    padding: 0px;
+    height: 753px;
+}  
+
 #circle{
-    background:silver;
+    background:rgb(247, 243, 145);
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -14,23 +25,53 @@ body{
     left: 1045px;
     top: 375px; 
     opacity: 100%;
-    box-shadow: 0px 0px 100px 0px white;
-
+    box-shadow: 0px 0px 30px 0px rgb(247, 243, 145);
+    transition: 1s ease all;
+    
 
 }    
+/* 
+#circle:hover .back{
+    background: red;  
+
+} */
 
 
+#circle:hover {
+    transform: translate(0px,-150px);
+    background: white;
+    box-shadow: 0px 0px 100px 0px white;
+    height: 130px;
+    width: 130px;
+    
 
+    
+}
 
+#circle:hover .back{
+    background-color: orangered;
+
+}
+
+@keyframes back {
+    from{
+        background-color: #100c25 ;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+/* 
 #change:checked ~ #circle{
     background-color: rgb(252, 199, 26);
     box-shadow: 0px 0px 100px 0px rgb(255, 208, 0);
     /* animation-duration: 1s;
     animation-name: colorchange;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards; 
 
-  
 }
+*/
 
 
 
@@ -46,7 +87,7 @@ body{
 
 
 
-#change{
+/* #change{
 
      width: 100px;
      height: 100px;
@@ -57,7 +98,7 @@ body{
      cursor: pointer;
      z-index: 1;
 
-}
+} */
 
 /* #smol{
     background-color:rgb(76, 67, 83);
@@ -70,4 +111,3 @@ body{
     opacity: 0%;
 
 } */
-
