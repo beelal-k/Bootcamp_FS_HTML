@@ -4,43 +4,40 @@ body{
     border: 0px;
 }
 
-.back{
+#back{
     background-color: #100c25;
-     /* animation-duration: 1s; */
-    /* animation-name: colorchange;
-    animation-fill-mode: forwards;*/ 
-    animation-name: back;
-    animation-duration: 2s;
     margin:0px;
     padding: 0px;
     height: 753px;
+    top: 0px;
+    z-index: 9;
 }  
 
 #circle{
-    background:rgb(247, 243, 145);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background:rgb(250, 248, 189);
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    position: relative;
+    position: absolute;
     left: 1045px;
     top: 375px; 
     opacity: 100%;
     box-shadow: 0px 0px 30px 0px rgb(247, 243, 145);
     transition: 1s ease all;
     
+    
 
 }    
-/* 
-#circle:hover .back{
-    background: red;  
 
-} */
 
 
 #circle:hover {
     transform: translate(0px,-150px);
     background: white;
-    box-shadow: 0px 0px 100px 0px white;
+    box-shadow: 0px 0px 100px 0px rgb(255, 251, 0);
     height: 130px;
     width: 130px;
     
@@ -48,66 +45,46 @@ body{
     
 }
 
-#circle:hover .back{
-    background-color: orangered;
+#circle:hover + #back{
+
+    background-color: rgb(212, 107, 69);
+
+    /* animation-name: back;
+    animation-duration: 3s;
+     */
+    
 
 }
+
+
+/* #circle:not(:hover) + #back{
+    animation-name: rev_back;
+    animation-duration: 3s;
+
+}
+
 
 @keyframes back {
     from{
         background-color: #100c25 ;
     }
     to{
-        background-color: red;
+        background-color: orangered;
     }
 }
 
-/* 
-#change:checked ~ #circle{
-    background-color: rgb(252, 199, 26);
-    box-shadow: 0px 0px 100px 0px rgb(255, 208, 0);
-    /* animation-duration: 1s;
-    animation-name: colorchange;
-    animation-fill-mode: forwards; 
-
-}
-*/
-
-
-
-
-/* @keyframes colorchange {
+@keyframes rev_back {
     from{
-        background-color: #100c25;
+        background-color: orangered ;
     }
     to{
-        background-color: tomato;
+        background-color: #100c25
+        ;
     }
 } */
 
 
 
-/* #change{
 
-     width: 100px;
-     height: 100px;
-     position: absolute;
-     left: 1050px;
-     top: 380px; 
-     opacity: 0%;
-     cursor: pointer;
-     z-index: 1;
 
-} */
 
-/* #smol{
-    background-color:rgb(76, 67, 83);
-    width: 45px;
-    height: 50px;
-    border-radius: 90%;
-    position: relative;
-    left: 1060px;
-    top: 300px;
-    opacity: 0%;
-
-} */
