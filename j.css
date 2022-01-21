@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mega{
+    border: 0px solid black;
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    align-content: center;
+}
+
+#parent{
+    border: 0px solid red;
+    display: flex;
+    position: relative;
+    height: 900px;
+    width: 1600px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header{
+    border: 0px solid black;
+    height: 40px;
+    display: flex;
+    width:1600px;
+    background-color: #F3F3F3;
+}
+.top{
+    display: flex;
+    
+    
+}
+
+#welcome{
+    font-size: 11px;
+    border: 0px solid black;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+#signin{
+    display: inline-block;
+    text-align: center;
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11px;
+}
+
+#track{
+    display: inline-block;
+    text-align: center;
+    border: 0px solid black;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11px;
+}
+
+#curr{
+    display: inline-block;
+    text-align: left;
+    border: 0px solid black;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11px;
+}
+
+#logo{
+
+    border: 0px solid black;
+    width: 1600px;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    
+}
+
+#menus ul{
+    display: flex;
+    border: 0px solid black;
+    font-size: 16px;
+    width: 1500px;
+    height: 30px;
+    align-items:center;
+    justify-content:space-evenly ;
+
+        
+    
+}
+#menus li{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+#main{
+    display: flex;
+    width: 1600px;
+    height: 580px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#left{
+    width: 600px;
+    display: flex;
+    border: 0px solid red;
+    justify-content: space-around;
+}
+#right{
+    display:inline-block;
+    width: 800px;
+    border: 0px solid blue;
+    height: 500px;
+    
+
+}
+#tagline{
+    font-size: 22px;
+}
+
+#prod_no{
+    font-size: 15px;
+    font-weight: 500;
+    color: #999999;
+}
+
+#stock{
+    font-size: 15px;
+    font-weight: 600;
+    color: #999999;
+}
+
+#review{
+    color: black;
+    font-size: 11px;
+}
+
+#disc_price{
+    font-size: 30px;
+    font-weight: 700;
+}
+#price{
+    color: #575757;
+    font-weight: 500;
+}
+
+#cart{
+    width: 375px;
+    height: 55px;
+    border-collapse: collapse;
+    border-radius: 0px;
+    border-color: black;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#addon{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#related{
+    position: relative;
+    top: -150px;
+    text-align: center;
+    font-size: 26px;
+    
+}
+#check{
+    position: relative;
+    top: -140px;
+    left: 160px;
+    font-size: 13px;
+}
+#select{
+    
+    border-radius: 0px;
+    border-color: #232323;
+    background-color: #232323; 
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
