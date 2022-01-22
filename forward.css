@@ -61,3 +61,29 @@ header nav li{
 header nav li:hover{
     cursor: pointer;
 }
+
+@media (max-width: 1000px){
+
+    header{
+        padding-top:40px;
+        /* padding-right: 100px; */
+        
+    }
+}
+
+@media (max-width: 600px){
+
+    header{
+        flex-direction: column;
+        
+     }
+
+    header h1{
+        margin: 20px;
+        
+     }
+     
+    #first_sect:after{
+        opacity: 30%;
+    }
+}
