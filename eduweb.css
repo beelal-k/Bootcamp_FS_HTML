@@ -245,12 +245,73 @@ body{
     font-weight: 600;
 }
 
-#yel_txt{
+#yel_txt1{
     position: absolute;
     width: 170px;
-    top: 480px;
+    top: 420px;
     left: 270px;
 }
+
+#yel_txt2{
+    position: absolute;
+    width: 170px;
+    top: 500px;
+    left: 270px;
+}
+
+#yel_txt3{
+    position: absolute;
+    width: 170px;
+    top: 580px;
+    left: 270px;
+}
+
+#yel_txt4{
+    position: absolute;
+    width: 170px;
+    top: 660px;
+    left: 270px;
+}
+
+#yel_line1{
+    position: absolute;
+    top: 480px;
+    left: 270px;
+    width: 156px;
+    box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
+    opacity: 30%;
+    /* z-index: 2; */
+}
+
+#yel_line2{
+    position: absolute;
+    top: 560px;
+    left: 270px;
+    width: 156px;
+    box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
+    opacity: 30%;
+    /* z-index: 2; */
+}
+
+#yel_line2{
+    position: absolute;
+    top: 560px;
+    left: 270px;
+    width: 156px;
+    box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
+    opacity: 30%;
+    /* z-index: 2; */
+}
+#yel_line3{
+    position: absolute;
+    top: 640px;
+    left: 270px;
+    width: 156px;
+    box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
+    opacity: 30%;
+    /* z-index: 2; */
+}
+
 
 #blue{
     background-color: #3C659C;
@@ -354,8 +415,13 @@ body{
     right: 30px;
     border-top-left-radius: 60% 100px;
     border-top-right-radius: 60% 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
+
+
 
 #red_bg{
     background-color: white;
@@ -404,6 +470,81 @@ body{
     width: 170px;
 }
 
+
+#sect_1{
+    font-size: 13px;
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+#sect_2{
+    font-size: 13px;
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+#sect_3{
+    font-size: 13px;
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 460px;
+}
+
+#sect_3 > input{
+    width: 140px;
+}
+
+.light{
+    opacity: 80%;
+}
+
+#butt_subs{
+    position: absolute;
+    left: 67px;
+    text-shadow: 1px 1px 1px black;
+    background-color: yellow;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 20px;
+    box-shadow: inset  0 -20px 20px -10px #8a602e;
+    color: white;       
+}
+
+#name{
+    background-color: rgb(49, 33, 33);
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 5px 0px black;
+    color: white;
+
+}
+#email{
+    background-color: rgb(49, 33, 33);
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 5px 0px black;
+    color: white;
+}
+
+#sect_4{
+    opacity: 80%;
+    font-size: 11px;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+
+input:focus{
+    outline: none;
+}
 
 button:hover{
     cursor: pointer;
